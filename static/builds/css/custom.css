@@ -1,0 +1,388 @@
+.side-margin-zero {
+    margin: 0!important;
+}
+
+.padding-b-5 {
+    padding-bottom: 5px;
+}
+
+.padding-b-15 {
+    padding-bottom: 15px;
+}
+
+.padding-l-15 {
+    padding-left: 15px;
+}
+
+hr.a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 20px solid #eeeeee;
+}
+
+header .header-wrapper > * {
+    display: inline-block;
+}
+
+header .header-bg {
+    /* background: url("../../../images/header/2.jpg");*/
+    background: #8c4d79;
+    padding: 30px 30px 60px;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+header h1, header h2 {
+    color: #fff;
+}
+
+header .logo {
+    float: left;
+    width: 100px;
+    margin: 0 20px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.custom-container {
+    width: 85%;
+    margin: auto;
+}
+
+.custom-container .top_nav {
+    display: flexbox;
+    display: flex;
+}
+
+.push-up {
+    margin-top: -34px;
+    border-top: 5px solid #a77c9a;
+}
+
+@media (min-width: 768px) {
+    .top_nav .nav-toggler {
+        display: none;
+    }
+}
+
+.top_nav .nav-toggler {
+    margin: 15px 0 0 15px;
+    background: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid;
+    color: #7b7b7b;
+}
+
+
+@media (max-width: 767px) {
+    .collapse-at-small {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav_menu nav {
+        position: relative;
+    }
+}
+
+@media (max-width: 767px) {
+    .collapse-at-small {
+        position: absolute;
+        top: 52px;
+        left: 15px;
+        background: white;
+        z-index: 10;
+        box-shadow: 1px 1px 5px;
+    }
+}
+
+.set-height-600 {
+    min-height: 600px;
+}
+
+.white-bg {
+    background: #fff;
+}
+
+.heading-title {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.heading-title h2 {
+    position: relative;
+    display: inline;
+    padding: 12px 20px;
+    font-size: 1.6em;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid #515356;
+}
+
+.heading-title h2::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: -16px;
+    margin-left: -15px;
+    background: #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.heading-title h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-top: -7px;
+    margin-left: -6px;
+    background: #515356;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.content {
+    padding: 0 20px;
+    text-align: justify;
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+
+ul.invite_box {
+    width: 100%;
+    height: 42px;
+    padding: 3px;
+    background: #ececec;
+    margin-top: 40px;
+    margin-left: 1px;
+}
+
+ul.invite_box li:first-child {
+    width: 25%;
+    float: left;
+}
+
+ul.invite_box li .profile_img {
+    width: 85px;
+    height: 85px;
+    margin: 0;
+    margin-top: -28px;
+}
+
+
+ul.invite_box li:last-child {
+    width: 75%;
+    float: right;
+}
+
+ul.invite_box li a {
+    font-size: 1.6em;
+    text-align: center;
+    line-height: 1.6em;
+    margin-left: -5px;
+}
+
+.col-md-6.right-border {
+    border-right: 10px solid #eee;
+}
+
+.col-md-6.left-border {
+    border-left: 10px solid #eee;
+}
+
+
+footer {
+    background: #eee;
+    padding: 30px 30px;
+    min-height: 50px;
+    border-top: 1px dashed #dadada;
+}
+
+
+
+.profile-edit-btn {
+    position: absolute;
+    right: 20px;
+}
+
+
+.profiletable1 {
+    font-size: 1em;
+}
+
+.profiletable1 td:first-child {
+    padding-left: 20px!important;
+    font-weight: bold;
+}
+
+.profiletable2 {
+    font-size: 1em;
+}
+
+.profiletable2 td span {
+    line-height: 0;
+}
+
+.profiletable2 td.spl-cell span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.heading-cell span {
+    font-size: 1.3em;
+    padding: 5px 20px 4px;
+    color: #fff;
+    background: #515356;
+    vertical-align: middle;
+}
+
+.grade-cell span {
+    display: inline-block;
+    width: 50px;
+    margin: 0 20px;
+}
+
+.grade-cell span:first-child {
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+    padding: 30px;
+    max-width: 350px;
+    width: 100% !important;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.loginmodal-container h1 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.loginmodal-container input[type=submit] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    height: 36px;
+    padding: 0 8px;
+}
+
+.loginmodal-submit {
+    border: 0px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    padding: 10px 0px;
+    font-size: 1.4em;
+}
+
+.loginmodal-submit:hover {
+    border: 0px;
+    text-shadow: 0 1px rgba(0,0,0,0.7);
+    background-color: rgb(44, 171, 141)!important;
+}
+
+.loginmodal-container a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.6;
+    transition: opacity ease 0.5s;
+}
+
+.login-help {
+    font-size: 12px;
+}
